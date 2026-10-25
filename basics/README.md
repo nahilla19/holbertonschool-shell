@@ -21,3 +21,7 @@ Displays the contents of the current directory in long format using the ls -l co
 ## 4-listmorefiles
 
 Displays all files, including hidden files, in long format using the ls -la command.
+
+## 5-listfilesdigitonly
+
+Displays all directory contents, including hidden files, in long format with numeric user and group IDs using the ls -lan command.
