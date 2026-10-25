@@ -29,3 +29,7 @@ Displays all directory contents, including hidden files, in long format with num
 ## 6-firstdirectory
 
 Creates a directory named my_first_directory inside the /tmp directory using the mkdir command.
+
+## 7-movethatfile
+
+Moves the file betty from the /tmp directory to /tmp/my_first_directory using the mv command.
