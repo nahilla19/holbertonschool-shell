@@ -17,3 +17,7 @@ Changes the working directory to the user's home directory using cd ~.
 ## 3-listfiles
 
 Displays the contents of the current directory in long format using the ls -l command.
+
+## 4-listmorefiles
+
+Displays all files, including hidden files, in long format using the ls -la command.
