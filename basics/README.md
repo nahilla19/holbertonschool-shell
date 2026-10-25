@@ -33,3 +33,7 @@ Creates a directory named my_first_directory inside the /tmp directory using the
 ## 7-movethatfile
 
 Moves the file betty from the /tmp directory to /tmp/my_first_directory using the mv command.
+
+## 8-firstdelete
+
+Deletes the file betty from the /tmp/my_first_directory directory using the rm command.
