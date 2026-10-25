@@ -37,3 +37,7 @@ Moves the file betty from the /tmp directory to /tmp/my_first_directory using th
 ## 8-firstdelete
 
 Deletes the file betty from the /tmp/my_first_directory directory using the rm command.
+
+## 9-firstdirdeletion
+
+Deletes the empty directory my_first_directory from /tmp using the rmdir command.
