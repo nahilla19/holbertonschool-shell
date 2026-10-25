@@ -13,3 +13,7 @@ displays the contents of the current directory using the ls command.
 ## 2-bring_me_home
 
 Changes the working directory to the user's home directory using cd ~.
+
+## 3-listfiles
+
+Displays the contents of the current directory in long format using the ls -l command.
