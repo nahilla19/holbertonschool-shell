@@ -25,3 +25,7 @@ Displays all files, including hidden files, in long format using the ls -la comm
 ## 5-listfilesdigitonly
 
 Displays all directory contents, including hidden files, in long format with numeric user and group IDs using the ls -lan command.
+
+## 6-firstdirectory
+
+Creates a directory named my_first_directory inside the /tmp directory using the mkdir command.
