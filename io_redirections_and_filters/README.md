@@ -7,3 +7,4 @@
 - 4-lastlines: Display the last 10 lines of /etc/passwd using tail.
 - 5-firstlines: Displays the first 10 lines of /etc/passwd using head.
 - 6-third_line: Displays the third line of the iacta file using head and tail.
+- 7-file: Creates a file with a special name containing "Best School" followed by a newline.
