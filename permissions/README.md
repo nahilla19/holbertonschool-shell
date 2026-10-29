@@ -33,3 +33,7 @@ This directory contains scripts for practicing Linux user and file permissions.
 ## 7. Everybody!
 
 `7-everybody` adds execute permission for the owner, group, and others on `hello` using `chmod a+x hello`.
+
+## 8. James Bond
+
+`8-James_Bond` removes all permissions from the owner and group, and grants read, write, and execute permissions to others on `hello` using `chmod 007 hello`.
