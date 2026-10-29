@@ -57,3 +57,7 @@ This directory contains scripts for practicing Linux user and file permissions.
 ## 13. Change group
 
 `13-change_group` changes the group owner of the file `hello` to `school` using `chgrp school hello`.
+
+## 14. Owner and group
+
+`14-change_owner_and_group` recursively changes the owner to `vincent` and the group to `staff` for all files and directories in the current working directory using `chown -R vincent:staff .`.
