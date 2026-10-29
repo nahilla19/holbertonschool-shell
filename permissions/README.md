@@ -49,3 +49,7 @@ This directory contains scripts for practicing Linux user and file permissions.
 ## 11. Directories
 
 `11-directories_permissions` adds execute permission for the owner, group, and others to every immediate subdirectory of the current directory, without changing regular files, using `find . -mindepth 1 -maxdepth 1 -type d -exec chmod a+x {} +`.
+
+## 12. More directories
+
+`12-directory_permissions` creates a directory named `my_dir` with permissions `751` using `mkdir -m 751 my_dir`.
