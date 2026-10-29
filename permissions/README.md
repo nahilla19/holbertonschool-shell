@@ -25,3 +25,7 @@ This directory contains scripts for practicing Linux user and file permissions.
 ## 5. Execute
 
 `5-execute` adds execute permission to the owner of `hello` using `chmod u+x hello`.
+
+## 6. Multiple permissions
+
+`6-multiple_permissions` adds execute permission to the owner and group, and read permission to others on `hello` using `chmod ug+x,o+r hello`.
