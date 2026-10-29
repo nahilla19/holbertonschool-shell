@@ -65,3 +65,7 @@ This directory contains scripts for practicing Linux user and file permissions.
 ## 15. Symbolic links
 
 `15-symbolic_link_permissions` changes the owner to `vincent` and group to `staff` of the symbolic link `_hello` itself using `chown -h vincent:staff _hello`.
+
+## 16. If only
+
+`16-if_only` changes the owner of `hello` to `vincent` only when its current owner is `guillaume`, using `chown --from=guillaume vincent hello`.
