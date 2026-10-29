@@ -53,3 +53,7 @@ This directory contains scripts for practicing Linux user and file permissions.
 ## 12. More directories
 
 `12-directory_permissions` creates a directory named `my_dir` with permissions `751` using `mkdir -m 751 my_dir`.
+
+## 13. Change group
+
+`13-change_group` changes the group owner of the file `hello` to `school` using `chgrp school hello`.
