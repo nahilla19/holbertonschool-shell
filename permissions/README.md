@@ -41,3 +41,7 @@ This directory contains scripts for practicing Linux user and file permissions.
 ## 9. John Doe
 
 `9-John_Doe` sets the permissions of `hello` to `-rwxr-x-wx` using `chmod 753 hello`.
+
+## 10. Look in the mirror
+
+`10-mirror_permissions` copies the permissions of `olleh` to `hello` using `chmod --reference=olleh hello`.
