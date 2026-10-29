@@ -29,3 +29,7 @@ This directory contains scripts for practicing Linux user and file permissions.
 ## 6. Multiple permissions
 
 `6-multiple_permissions` adds execute permission to the owner and group, and read permission to others on `hello` using `chmod ug+x,o+r hello`.
+
+## 7. Everybody!
+
+`7-everybody` adds execute permission for the owner, group, and others on `hello` using `chmod a+x hello`.
