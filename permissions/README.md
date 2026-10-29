@@ -21,3 +21,7 @@ This directory contains scripts for practicing Linux user and file permissions.
 ## 4. Empty!
 
 `4-empty` creates an empty file named `hello` using `touch hello`.
+
+## 5. Execute
+
+`5-execute` adds execute permission to the owner of `hello` using `chmod u+x hello`.
