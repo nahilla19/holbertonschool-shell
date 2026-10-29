@@ -13,3 +13,7 @@ This directory contains scripts for practicing Linux user and file permissions.
 ## 2. Groups
 
 `2-groups` prints all groups the current user belongs to using `groups`.
+
+## 3. New owner
+
+`3-new_owner` changes the owner of the file `hello` to the user `betty` using `chown betty hello`.
