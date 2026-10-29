@@ -61,3 +61,7 @@ This directory contains scripts for practicing Linux user and file permissions.
 ## 14. Owner and group
 
 `14-change_owner_and_group` recursively changes the owner to `vincent` and the group to `staff` for all files and directories in the current working directory using `chown -R vincent:staff .`.
+
+## 15. Symbolic links
+
+`15-symbolic_link_permissions` changes the owner to `vincent` and group to `staff` of the symbolic link `_hello` itself using `chown -h vincent:staff _hello`.
