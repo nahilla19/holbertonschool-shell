@@ -45,3 +45,7 @@ This directory contains scripts for practicing Linux user and file permissions.
 ## 10. Look in the mirror
 
 `10-mirror_permissions` copies the permissions of `olleh` to `hello` using `chmod --reference=olleh hello`.
+
+## 11. Directories
+
+`11-directories_permissions` adds execute permission for the owner, group, and others to every immediate subdirectory of the current directory, without changing regular files, using `find . -mindepth 1 -maxdepth 1 -type d -exec chmod a+x {} +`.
