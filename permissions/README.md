@@ -17,3 +17,7 @@ This directory contains scripts for practicing Linux user and file permissions.
 ## 3. New owner
 
 `3-new_owner` changes the owner of the file `hello` to the user `betty` using `chown betty hello`.
+
+## 4. Empty!
+
+`4-empty` creates an empty file named `hello` using `touch hello`.
